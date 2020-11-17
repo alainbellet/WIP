@@ -80,7 +80,8 @@ color: white;
       clear_e2p2();
       var tagA = document.getElementById('word_e2p2A').value
       var tagB = document.getElementById('word_e2p2B').value
-      var github = 'https://drive.google.com/file/d/1GzApBMjMNu4rSRz_mW-PnaPSUS4W1DYw/view?usp=sharing'
+
+      var github = 'https://spreadsheets.google.com/feeds/cells/1GzApBMjMNu4rSRz_mW-PnaPSUS4W1DYw/1/public/full?alt=csv'
       var t = d3.csv(github, function(data) {
         //var columns = ['Nr', 'Sektor', 'Subventionsstatus'];
       var columns = ['Nr','Sektor','Subventionsbezeichnung','Subventionsart','Subventionstatus','Negative Wirkung','Schwierigkeit','Biodiversitätsschädigender','','','Rechtsgrundlage','Anpassung','Quelle'];
