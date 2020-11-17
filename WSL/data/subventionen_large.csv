@@ -1,4 +1,4 @@
-Nr,Sektor,Subventionsbezeichnung,Subventionsart,Subventionstatus,Negative Wirkung,Schwierigkeit,Biodiversitätsschädigender,Budget,,Rechtsgrundlage,Anpassung,Quelle
+Nr,Sektor,Subventionsbezeichnung,Subventionsart,Subventionstatus,Negative Wirkung,Schwierigkeit,Biodiversitätsschädigender,Budget,Budget Quelle,Rechtsgrundlage,Anpassung,Quelle
 1,Verkehr,Neubau und Ausbau von Nationalstrassen,Zweckbindung der Verkehrsabgaben,Fehlanreiz,xxx,xx,Vollständig,843.9,"ASTRA, Kantone","BV, Art. 83 - Art. 87","BV, 85 Bst. 2 und Art. 86 anpassen: Zweckbindung aufheben oder Mittel abschöpfen für BD-gerechten Strassenunterhalt und -sanierung",BFS 2020: Infrastrukturrechnung
 2,Verkehr,Baulicher Unterhalt von Nationalstrassen,Zweckbindung der Verkehrsabgaben,Fehlanreiz,x,xx,Je nach Umsetzung,779.7,"ASTRA, Kantone","BV, Art. 83 - Art. 87",dito,BFS 2020: Infrastrukturrechnung
 3,Verkehr,Neubau und Ausbau von Kantonsstrassen,Zweckbindung der Verkehrsabgaben,Fehlanreiz,xxx,xx,Vollständig,1130.2,"ASTRA, Kantone","BV, Art. 83 - Art. 87
@@ -39,7 +39,7 @@ Kt. Gesetzgebung so anpassen, dass Parkgebühr ab Parkbeginn erhoben werden kann
 26,Verkehr,Befreiung  CO2-Abgabe für den Luftverkehr,Steuer- /Abgabevergünstigung,Off-Budget,xx,A,Vollständig ,520.4,allgemeine Bundeskasse,CO2-Gesetz,CO2-Gesetz mit entsprechendem Artikel ergänzen,www.bfs.admin.ch -> Treibstoffverbrauch und Schadstoffemissionen
 27,Verkehr,Einbinden des Flugverkehrs in das Emissionshandelssystems ,Eingriffe in Marktmechanismen,Off-Budget,x,xxx,Vollständig ,46.4,Bund,CO2-Gesetz; Abkommen zwischen der Schweizerischen Eidgenossenschaft und der Europäischen Union zur Verknüpfung ihrer jeweiligen Systeme für den Handel mit Treibhausgasemissionen,"Angleichen des int. CO2-Preises an die CO2-Abgabe von 96 CHF (Abschöpfen der Differenz
 Emissionsberechtigungen für den Flugverkehr sollten nicht kostenlos zugeteilt werden.",BAFU 2019
-28,Verkehr,Mehrwertsteuerbefreiung für internationalen (und gewissen inländischen) Flugverkehr,Steuer- /Abgabevergünstigung,Off-Budget,x,A,Vollständig ,50,allgemeine Bundeskasse,"MWSTV, Art. 41
+28,Verkehr,Mehrwertsteuerbefreiung für internationalen (und gewissen inländischen) Flugverkehr,Steuer- /Abgabevergünstigung,Off-Budget,x,A,Vollständig ,50,allgemeine Bundeskasse,"MWSTV, Art. 41 
 
 MWSTG, Art. 23 Abs. 4 ","MWSTG, Art. 23 Abs. 4 streichen",ESTV 2011
 29,Verkehr,Befreiung Stempelabgabe auf Kaskoversicherungsprämie für Luftfahrzeuge und Schiffe im Ausland,Steuer- /Abgabevergünstigung,Off-Budget,x,A,Vollständig,40,allgemeine Bundeskasse,"StG, Art. 22 Bst. K","StG, Art. 22 Bst. K streichen",ESTV 2011
@@ -49,11 +49,11 @@ Bei Kostenübernahmen der Fluginfrastruktur durch Gemein-de und Kanton soll die 
 32,Verkehr,Externe ökologische  Kosten Strassenverkehr,Externe Kosten,Implizite Subvention,xxx,A,Vollständig ,2640,Allgemeinheit,k.A.,Internalisieren,"BFS (2019a), ecoplan (2019)"
 33,Verkehr,Externe ökologische Kosten Schieneverkehr,Externe Kosten,Implizite Subvention,x,A,Vollständig ,162,Allgemeinheit,k.A.,Internalisieren,"BFS (2019a), ecoplan (2019)"
 34,Verkehr,Externe ökologische Kosten Luftverkehr,Externe Kosten,Implizite Subvention,xx,A,Vollständig ,772,Allgemeinheit,k.A.,Internalisieren,"BFS (2019a), ecoplan (2019)"
-35,LW,Grenzschutz,Eingriffe in Marktmechanismen,Off-Budget,xx,A,Partiell,"3,108.0",KonsumentInnen,"BV, Art. 104
-SR 101;
-LwG, Art. 1 Bst. e","Aufhebung des Grenzschutzes hätte starke Nachteile für BD (Bewirtschaftungsaufgabe oder starke Intensivierung, Güterzusammenlegungen) => keine Änderung empfohlen",OECD (2019); Dümmler und Roten (2018)
+35,LW,Grenzschutz,Eingriffe in Marktmechanismen,Off-Budget,xx,A,Partiell,"3,108.0",KonsumentInnen,"BV, Art. 104 
+SR 101; 
+LwG, Art. 1 Bst. e","Aufhebung des Grenzschutzes hätte starke Nachteile für BD (Bewirtschaftungsaufgabe oder starke Intensivierung, Güterzusammenlegungen) => keine Änderung empfohlen",OECD (2019); Dümmler und Roten (2018) 
 36,LW,Basisbeitrag,Direkter Geldtransfer ,On-Budget,xx,x,Vollständig,745.5,"Bund, BLW","LwG, Art. 72 Abs. 1 a und Abs. 2","LwG, Art. 72 Abs. 1 a und Abs. 2:
-- Abs. 1 ergänzen mit Bedingung zu weniger (oder verordnetem Maxmimum ) Stickstoffeintrag pro ha ODER
+- Abs. 1 ergänzen mit Bedingung zu weniger (oder verordnetem Maxmimum ) Stickstoffeintrag pro ha ODER 
 - Bedingung BD-gerechte Bewirt-schaftung; dann: Abs. 2 modifizie-ren, ODER
 - Basisbeitrag nur an Lebensmit-telproduktion für direkten menschlichen Verzehr sowie Milchproduktion",BLW Agrarbericht 2019; Dümmler und Roten (2018)
 37,LW,Externe ökologische Kosten Stickstoff ,Externe Kosten,Implizite Subvention,xxx,xx,Vollständig,520.0,Allgemeinheit,Nicht anwendbar,Internalisieren,"European Nitrogen Assessment (ENA) Chapter 22. Costs and benefits of nitrogen in the environment (2011), S. 534; Interpellation 16.3512; Dümmler und Roten (2018)"
@@ -100,9 +100,9 @@ Art. 2 e Bst. 3 ergänzen mit: Sie unterstützen die Ausrichtung der Land- und E
 72,LW,Marktstützung Fleisch / Einlagerungsbeiträge Kalbfleisch ,Eingriffe in Marktmechanismen,On-Budget,x,xxx,Vollständig,3.7,"Bund, BLW","LwG, Art. 50","LwG, Art. 50 streichen",BLW Agrarbericht 2019; Dümmler und Roten (2018)
 73,LW,Administration Milchproduktion und -verwertung,Direkter Geldtransfer ,On-Budget,x,xx,Vollständig,2.7,"Bund, BLW",LwG,Durch vom BLW extern beauftragte Organisationen. Keine biodiversitätsrelevante Handlungsmöglichkeit.,BLW Agrarbericht 2019; Dümmler und Roten (2018)
 74,LW,Marktstützung Eier,Eingriffe in Marktmechanismen,On-Budget,x,xxx,Vollständig,1.7,"Bund, BLW","LwG, Art. 52","LwG, Art. 52 streichen",BLW Agrarbericht 2019; Dümmler und Roten (2018)
-75,LW-LU,Investitionskredite,Zinsvergünstigungen/-erlasse,Off-Budget,xx,xx,Partiell,0.500,Kanton,Kantonale Richtlinien für die Unterstützung von Strukturverbesserungen (Luzern),,Geschäftsbericht 2018 Landwirtschaftliche Kreditkasse
-76,LW-LU,Agrarkredite für bauliche Massnahmen,Direkter Geldtransfer ,On-Budget,x,x,Je nach Umsetzung,14.200,Kanton,Kantonale Richtlinien für die Unterstützung von Strukturverbesserungen (Luzern),,Geschäftsbericht 2018 Landwirtschaftliche Kreditkasse
-77,LW-LU,Agrarkredite für gemeinschaftliche Massnahmen,Direkter Geldtransfer ,On-Budget,x,x,Je nach Umsetzung,5.500,Kanton,Kantonale Richtlinien für die Unterstützung von Strukturverbesserungen (Luzern),,Geschäftsbericht 2018 Landwirtschaftliche Kreditkasse
+75,LW-LU,Investitionskredite,Zinsvergünstigungen/-erlasse,Off-Budget,xx,xx,Partiell,0.500,Kanton,Kantonale Richtlinien für die Unterstützung von Strukturverbesserungen (Luzern),,Geschäftsbericht 2018 Landwirtschaftliche Kreditkasse 
+76,LW-LU,Agrarkredite für bauliche Massnahmen,Direkter Geldtransfer ,On-Budget,x,x,Je nach Umsetzung,14.200,Kanton,Kantonale Richtlinien für die Unterstützung von Strukturverbesserungen (Luzern),,Geschäftsbericht 2018 Landwirtschaftliche Kreditkasse 
+77,LW-LU,Agrarkredite für gemeinschaftliche Massnahmen,Direkter Geldtransfer ,On-Budget,x,x,Je nach Umsetzung,5.500,Kanton,Kantonale Richtlinien für die Unterstützung von Strukturverbesserungen (Luzern),,Geschäftsbericht 2018 Landwirtschaftliche Kreditkasse 
 78,LW-LU,Gebirgshilfefonds,Direkter Geldtransfer ,On-Budget,xx,x,Partiell,0.340,Kanton,Kantonale Verordnung über den Gebirgshilfefonds für Strukturverbesserungen (Luzern),,Lotterie-Liste 2018 - Kanton Luzern
 79,LW-LU,Beiträge Tierzuchtverbände,Direkter Geldtransfer ,On-Budget,xxx,xx,Vollständig,0.100,Kanton,Kantonale Verordnung über die Verwendung der Lotteriegelder (Luzern),,Lotterie-Liste 2018 - Kanton Luzern
 80,LW-LU,Tierseuchenkassenbeitrag,Direkter Geldtransfer ,On-Budget,xxx,xx,Vollständig,1.640,Kanton,Kantonale Tierseuchenverordnung (Luzern),,"Luzerner Tierseuchenverordung Nr 845, Einwohnerzahlen LU"
@@ -126,20 +126,20 @@ BZWM, 2019, Broschüre Wald, 20 S.  https://www.ibw.ch/fileadmin/user_upload/cus
 91,Energieproduktion,Rückerstattung Netzzuschlag ,Steuer- / Abgabevergünstigung,Off-Budget,x,A,Vollständig ,k.A.,Bund,"EnG, Art. 39 bis 43 ;
 
 EnV, Art. 37 bis 49 ","EnG, Art. 39 bis 43; EnV, Art. 37 bis 49; EnG Art. 39 Abs 1 und 2 streichen oder Prozentpunkte der Bruttowertschöpfung erhöhen",BFE 2019g
-92,Energieproduktion,Befreiung CO2-Abgabe für WKK-Anlagen,Steuer- / Abgabevergünstigung,Off-Budget,x,A,Vollständig ,k.A.,Bund,CO2-Gesetz,"CO2-Gesetz, Art. 31: Befreiung an Verminderungsziele knüpfen, nicht wirtschaftliche Überlegungen (könnte ebenfalls einfach durch eine Preiserhöhung des CO2-Tonnenpreis ersetzt werden);
+92,Energieproduktion,Befreiung CO2-Abgabe für WKK-Anlagen,Steuer- / Abgabevergünstigung,Off-Budget,x,A,Vollständig ,k.A.,Bund,CO2-Gesetz,"CO2-Gesetz, Art. 31: Befreiung an Verminderungsziele knüpfen, nicht wirtschaftliche Überlegungen (könnte ebenfalls einfach durch eine Preiserhöhung des CO2-Tonnenpreis ersetzt werden); 
 Art. 32a: streichen: Befreiung ohne Verminderungspflicht","BfE 2019f, BAFU 2015"
 93,Energieproduktion,Programm Kleinwasserkraft,Förderprogramme,On-Budget,xxx,A,Vollständig,k.A.,Bund,"EnG, Art. 10, 11, 13. ","EnG, in Art. 10, 12, 13 BD-Kriterien berücksichtigen: 10: «geeignete Gebiet» auch BD-Eignung erwäh-nen. 12: Abs 5: «Er berück-sichtigt bei der Festlegung (…) sowie die Minimierung der negativen Auswirkun-gen auf Gewässerbiodiver-sität.» 13 Bst. 1: Bst. c anfügen: wenn dadurch BD nicht gefährdet wird. (o.ä.) ",BfE 2019c
 94,Energieproduktion,Investitionsbeiträge Kleinwasserkraftwerke,Direkter Geldtransfer ,On-Budget,xxx,A,Vollständig , 29 (gesprochene Beiträge 2018),BFE,EnG; Art. 24 ,"EnG, Art. 24 Abs. 1, Bst. b2. Streichen resp. abändern: «…für ökologische Sanie-rungen bestehender Kraft-werke mit einer Leistung von min. 300 kW»","BFE 2017, EFV 2018"
 95,Energieproduktion,Mehrkostenfinanzierung Kleinwasserkraft,Direkter Geldtransfer ,On-Budget,xxx,o,Vollständig ,24,BFE,EnG; Art. 7,EnG; Art. 7: Verträge laufen aus,Pronovo 2019
 96,Energieproduktion,Kostendeckende Einspeisevergütung (KEV) KLeinwasserkraft,Direkter Geldtransfer ,On-Budget,xxx,o,Vollständig ,58.9,BFE,,EnG; Art. 7: Verträge laufen aus; kein Handlungsbedarf,"BfE 2018c, ProNovo 2019, Swisssmallhydro 2019"
 97,Energieproduktion,Zu hohe Gestehungskosten bei Berechnung der KEV,Direkter Geldtransfer ,On-Budget,xxx,xx,Vollständig ,k.A.,BFE,,Verträge laufen aus; kein Handlungsbedarf,Rieder 2012; Gespräch Vetterli Sept 2019
-98,Energieproduktion,Einspeisevergütungssystem (EVS) Kleinwasserkraft,Direkter Geldtransfer ,On-Budget,xx,o,Vollständig ,147.8,BFE,EnG; EnV; EnFV,"EnG; EnV; EnFV:
-1. konzessionslose Kraftwerke vom EVS ausschliessen.
+98,Energieproduktion,Einspeisevergütungssystem (EVS) Kleinwasserkraft,Direkter Geldtransfer ,On-Budget,xx,o,Vollständig ,147.8,BFE,EnG; EnV; EnFV,"EnG; EnV; EnFV: 
+1. konzessionslose Kraftwerke vom EVS ausschliessen. 
 2. Vergütung auf effizienteste Kraftwerke reduzieren","BFE 2019b, ProNovo 2019"
 99,Energieproduktion,Vom Wettbewerb geschützte Wasserkraft,Eingriffe in Marktmechanismen,Off-Budget,x,xx,Partiell,k.A.,Stromkonsumierende,"EnG, Art. 31","EnG, Art. 31 ",
 100,Energieproduktion,Investitionsbeiträge für Grosswasserkraftwerke,Direkter Geldtransfer ,On-Budget,x,xx,Partiell,100 (gesprochene Beiträge 2018),BFE,"EnG, Art. 24","EnG, Art. 30: an BD-fördernde Auflagen knüpfen",Pronovo 2019
 101,Energieproduktion,Marktprämie für Grosswasserkraftwerke,Direkter Geldtransfer ,On-Budget,x,xx,Partiell,65.4,BFE,"EnG, Art. 30","EnG, Art. 30: an BD-fördernde Auflagen knüp-fen",BfE 2019k
-102,Energieproduktion,Wasserzins,Fehlanreiz,Fehlanreiz,xxx,o,Partiell,550,Wasserkraftwerke,"WZV; BV, Artikel 76; WRG","WZV; BV, Artikel 76; WRG;
+102,Energieproduktion,Wasserzins,Fehlanreiz,Fehlanreiz,xxx,o,Partiell,550,Wasserkraftwerke,"WZV; BV, Artikel 76; WRG","WZV; BV, Artikel 76; WRG; 
 WZV ergänzen mit entsprechender Klausel, dass der Zins zu 100 % oder zu xy % für Deckung externer Kosten Wasserkraft verwendet werden soll. Z.B. Wallis kennt Teilzweckbindung für Umweltmassnahmen und Naturgefahren (im Wallis fliesst Wasserzins der Rhone an Kanton und der der Seitengewässer an die Gemeinden)","Bundesrat 2017, Bundesgericht 2012, Gespräch Vetterli Sept 2019"
 103,Energieproduktion,Verzicht auf Heimfallverzichtsentschädigung bei Konzessionserneuerung,Steuer- / Abgabevergünstigung,Off-Budget,o (Grosswasserkraft); xx (Kleinwasserkraft),o,Partiell,k.A.,z.B. Kanton Bern,WRG; Versicherungsreglemente GR und VS,"Betrifft Bund/Kantone
 WRG; Versicherungsregle-mente GR und VS; nicht auf Heimfallverzichtsentschä-digung verzichten",Gespräch Vetterli Sept 2019
@@ -166,7 +166,7 @@ RPG, Art. 19 und kantonales Recht; WEG, Art. 1 ff., Art. 6; VWEG Art. 1; GSchG, 
 VWEG Art. 1 in kantonales Recht umset-zen und entsprechend Beiträge der Erschliessung für Grundeigentümer erhöhen  (betrifft nicht alle Kantone).","Studer 2012, 2017"
 121,Siedlung,Geringe Mehrwertabgabe,Steuer- / Abgabevergünstigung,Off-Budget,xx,xx,Vollständig ,k.A.,Kantone,RPG Art. 5 Abs. 1bis; RPV,"Betrifft Kantone
 RPG Art. 5 Abs. 1bis: Mindestansatz Ausgleich Planungsvorteile realisieren, idealerweise darüber hinausgehen",Espace Suisse 2019; UVEK 2018; Walter 2010
-122,Siedlung,Geografisch-topografischer Indikator: Abgeltung für hoch gelegene und kleine Siedlungen,Direkter Geldtransfer,On-Budget,k.A.,xxx,Je nach Umsetzung,180,Bund,"FiLaG, FiLaG","FiLaG: Indikatoren des geografisch-topografisch Lastenausgleichs anpassen; ev. Indikatorengrössen einfrieren mit Referenzjahr, damit Erfüllung Indikatoren nicht durch entsprechende Strukturpolitik. ",EFD 2019; Ecoplan 2013; Kantonale Gesetzgebungen und Verordnungen über den Lastenausgleich
+122,Siedlung,Geografisch-topografischer Indikator: Abgeltung für hoch gelegene und kleine Siedlungen,Direkter Geldtransfer,On-Budget,k.A.,xxx,Je nach Umsetzung,180,Bund,"FiLaG, FiLaG","FiLaG: Indikatoren des geografisch-topografisch Lastenausgleichs anpassen; ev. Indikatorengrössen einfrieren mit Referenzjahr, damit Erfüllung Indikatoren nicht durch entsprechende Strukturpolitik. ",EFD 2019; Ecoplan 2013; Kantonale Gesetzgebungen und Verordnungen über den Lastenausgleich 
 123,Siedlung,Geografisch-topografische Indikatoren: Abgeltungen für kleine/abgelegene/wenig besiedelte Gemeinden,Direkter Geldtransfer,On-Budget,k.A.,xxx,Je nach Umsetzung,>80,"Kanton, Gemeinden",Kantonale Gesetze über den innerkantonalen Finanz und Lastenausgleich,"Betrifft Kantone
 Kantonale Gesetze über den innerkantonalen Finanz- und Lastenausgleich anpassen, damit die Indikatoren des topografischen Lastenausgleichs strukturell unbeeinflussbar werden",Kantonale Finanzdepartemente
 124,Siedlung,Kantonaler Steuerwettbewerb,Steuer-/ Abgabevergünstigungen,Off-Budget,xx,xxx,Partiell,k.A.,Kantone,Kantonale Steuergesetze,"Betrifft Kantone
@@ -224,7 +224,7 @@ VSTM Management-Seminar 2013
 7. November 2013, 26 S"
 151,Tourismus,Reduzierter Mehrwertsteuersatz für Beherbergungsleistungen,Steuer- / Abgabevergünstigung,Off-Budget,x,A,Partiell,200,EFD (EStV),"MWSTG Art. 25, Abs 4 ","MWSTG Art. 25, Abs 4 aufheben
 (wurde 2019 um 10 Jahre verlängert)","WAK 2017, Parlamentarische Initiative Mehrwertsteuer. Dauerhafte Verankerung des Sondersatzes für Beherbergungsleistungen Bericht der Kommission für Wirtschaft und Abgaben des Nationalrats, 12 S. https://www.parlament.ch/centers/documents/de/bericht-wak-n-15-410-2017-03-22-d.pdf"
-152,Tourismus,Nationale und kantonale Tourismus-Marketingorganisation,Direkter Geldtransfer,On-Budget,x,xxx,Partiell,52.1,WBF (SECO),Bundesgesetz über Schweiz Tourismus ,"Bundesgesetz über Schweiz Tourismus
+152,Tourismus,Nationale und kantonale Tourismus-Marketingorganisation,Direkter Geldtransfer,On-Budget,x,xxx,Partiell,52.1,WBF (SECO),Bundesgesetz über Schweiz Tourismus ,"Bundesgesetz über Schweiz Tourismus 
 Art. 1 Abs 2 ergänzen mit: «fördert nachhaltige Entwicklung des touristischen Angebots und die Schonung der landschaftlichen Ressourcen»", Parlamentarische Initiative Mehrwertsteuer. Dauerhafte Verankerung des Sondersatzes für Beherbergungsleistungen. Bericht der Kommission für Wirtschaft und Abgaben des Nationalrats https://www.parlament.ch/centers/documents/de/bericht-wak-n-15-410-2017-03-22-d.pdf
 153,Tourismus,Tourismusabgaben,Direkter Geldtransfer,On-Budget,x,xx,Partiell,67,Kantone,Bundesgesetz über Schweiz Tourismus ,"Betrifft Bund/Kantone/Gemeinden
 Bundesgesetz über Schweiz Tourismus; kantonale und kommu-nale Bestimmungen
