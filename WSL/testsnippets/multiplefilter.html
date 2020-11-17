@@ -3,13 +3,13 @@
     <script src="https://d3js.org/d3.v4.0.0-alpha.40.min.js"></script>
   </head>
   <body>
-    <input type="checkbox" class="myCheckbox" value="Tourismus"> test 1 (thor)
-    <input type="checkbox" class="myCheckbox" value="Verkehr"> test 2 (spiderman)
-    <input type="checkbox" class="myCheckbox" value="superman"> test 3 (superman)
+    <input type="checkbox" class="myCheckbox" value="Tourismus"> Tourismus
+    <input type="checkbox" class="myCheckbox" value="Verkehr"> Verkehr
+    <input type="checkbox" class="myCheckbox" value="superman"> Landwirtschaft
 
     <div id="content"></div>
     <script>
-      data = ["verkehr","Tourismus","superman","spiderman","ironman"];
+      data = ["Verkehr","Tourismus","Landwirtschaft","spiderman","ironman"];
       table = d3.select("#content")
           .append("table")
           .property("border","1px");
