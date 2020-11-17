@@ -28,10 +28,10 @@ function clear_e2p2() {
 }
 function callback_e2p2(){
   var pres = document.getElementById('word_e2p2').value
-  var github = 'https://raw.githubusercontent.com/jzuniga123/SPS/master/DATA%20608/presidents.csv'
+  var github = 'https://alainbellet.github.io/WIP/WSL/data/subventionen_minimal.csv'
   var t = d3.csv(github,function (data) {
-    var columns = ['Name','Height','Weight'];
-    var subset = data.filter( function(d) { return d.Name.toLowerCase().indexOf( pres ) !== -1 } );
+    var columns = ['Nr','Sektor','Subventionsart','Subventionsstatus'];
+    var subset = data.filter( function(d) { return d.Sektor.toLowerCase().indexOf( pres ) !== -1 } );
     update_e2p2(subset,columns) });
 }
 </script>
