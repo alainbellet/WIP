@@ -1,0 +1,106 @@
+<html>
+
+<head>
+  <script src="https://d3js.org/d3.v4.0.0-alpha.40.min.js"></script>
+</head>
+
+<body>
+  <style>
+  table, th, td {
+  border: 1px solid black;
+
+}
+table{
+width: 100%;
+
+}
+table tr:hover{
+background-color: grey;
+color: white;
+}
+  </style>
+  <form>
+    <!-- <input id="word_e2p2A" type="text" size="20" value="Verkehr">
+    <input id="word_e2p2B" type="text" size="20" value="Off-Budget">-->
+    <select id="word_e2p2A" name="word_e2p2A" class="mydataselector">
+      <option value="*">All</option>
+      <option value="Verkehr">Verkehr</option>
+      <option value="Tourismus">Tourismus</option>
+      <option value="LW">LW</option>
+      <option value="Forstwirtschaft">Forstwirtschaft</option>
+      <option value="Energieproduktion">Energieproduktion</option>
+      <option value="Energiekonsum">Energiekonsum</option>
+      <option value="Siedlung">Siedlung</option>
+      <option value="Abwasser">Abwasser</option>
+      <option value="Hochwasserschutz">Hochwasserschutz</option>
+
+    </select>
+    <select id="word_e2p2B" name="word_e2p2B" class="mydataselector">
+      <option value="*">All</option>
+      <option value="Off-Budget">Off-Budget</option>
+      <option value="On-Budget">On-Budget</option>
+      <option value="Fehlanreiz">Fehlanreiz</option>
+      <option value="Implizite Subvention">Implizite Subvention</option>
+    </select>
+    <input type="button" value="Filter" onclick="clear_e2p2(); callback_e2p2()">
+    <input type="reset" value="Clear" onclick="clear_e2p2()">
+  </form>
+  <div id="target_e2p2"></div>
+
+  <script type="text/javascript">
+    d3.selectAll(".mydataselector").on("change", callback_e2p2);
+    callback_e2p2();
+
+    function update_e2p2(data, columns) {
+      var table = d3.select('#target_e2p2').append('table')
+      var thead = table.append('thead')
+      var tbody = table.append('tbody')
+      thead.append('tr').selectAll('th').data(columns).enter().append('th').text(function(d) {
+        return d
+      })
+      var rows = tbody.selectAll('tr').data(data).enter().append('tr')
+      var cells = rows.selectAll('td').data(function(row) {
+        return columns.map(function(column) {
+          return {
+            column: column,
+            value: row[column]
+          }
+        })
+      }).enter().append('td').text(function(d) {
+        return d.value
+      })
+      return table;
+    }
+
+    function clear_e2p2() {
+      var table = d3.select('#target_e2p2').selectAll("table").remove();
+    }
+
+    function callback_e2p2() {
+      clear_e2p2();
+      var tagA = document.getElementById('word_e2p2A').value
+      var tagB = document.getElementById('word_e2p2B').value
+      var github = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQf4CwQX0nQUXYNOZDE5-4EPkl2240JzbtsernjSI8Sme_l-V7ToTb-Vs_XDoFtMA/pub?output=csv'
+      var t = d3.csv(github, function(data) {
+        //var columns = ['Nr', 'Sektor', 'Subventionsstatus'];
+      var columns = ['Nr','Sektor','Subventionsbezeichnung','Subventionsart','Subventionstatus','Negative Wirkung','Schwierigkeit','Biodiversitätsschädigender','','','Rechtsgrundlage','Anpassung','Quelle'];
+        //var subset = data.filter( function(d) { return d.Sektor.indexOf( tagA ) !== -1 || d.Subventionsstatus.indexOf( tagB ) !== -1 } );
+        //var subset = data.filter( function(d) { return d["Sektor"].indexOf( tagA ) !== -1 || d["Subventionsstatus"]== tagB} );
+        var subset = data;
+        if (tagA != "*") {
+          subset = subset.filter(function(d) {
+            return d["Sektor"] == tagA
+          });
+        }
+        if (tagB != "*") {
+          subset = subset.filter(function(d) {
+            return d["Subventionsstatus"] == tagB
+          });
+        }
+        update_e2p2(subset, columns)
+      });
+    }
+  </script>
+</body>
+
+</html>
