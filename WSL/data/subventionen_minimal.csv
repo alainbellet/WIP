@@ -1,211 +1,211 @@
-Nr.;Sektor;Subventionsart;Subventionsstatus
-1;Verkehr;Zweckbindung der Verkehrsabgaben;Fehlanreiz
-2;Verkehr;Zweckbindung der Verkehrsabgaben;Fehlanreiz
-3;Verkehr;Zweckbindung der Verkehrsabgaben;Fehlanreiz
-4;Verkehr;Zweckbindung der Verkehrsabgaben;Fehlanreiz
-5;Verkehr;Zweckbindung der Verkehrsabgaben;Fehlanreiz
-6;Verkehr;Zweckbindung der Verkehrsabgaben;Fehlanreiz
-7;Verkehr;Direkter Geldtransfer;On-Budget
-8;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-9;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-10;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-11;Verkehr;Quersubventionierung;Implizite Subvention
-12;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-13;Verkehr;Eingriffe in Marktmechanismen;Off-Budget
-14;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-15;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-16;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-17;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-18;Verkehr;Direkter Geldtransfer;On-Budget
-19;Verkehr;Steuer- / Abgabevergünstigung;Off-Budget
-20;Verkehr;Direkter Geldtransfer;On-Budget
-21;Verkehr;Direkter Geldtransfer;On-Budget
-22;Verkehr;Direkter Geldtransfer;On-Budget
-23;Verkehr;"Abgeltung alpenquerender kombinierter Verkehr (UKV); Schienen-güterverkehr in der Fläche; Güterverkehrsanlagen und technische Neuerungen";On-Budget
-24;Verkehr;Direkter Geldtransfer;On-Budget
-25;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-26;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-27;Verkehr;Eingriffe in Marktmechanismen;Off-Budget
-28;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-29;Verkehr;Steuer- /Abgabevergünstigung;Off-Budget
-30;Verkehr;Direkter Geldtransfer;On-Budget
-31;Verkehr;Direkter Geldtransfer;On-Budget
-32;Verkehr;Externe Kosten;Implizite Subvention
-33;Verkehr;Externe Kosten;Implizite Subvention
-34;Verkehr;Externe Kosten;Implizite Subvention
-35;LW;Eingriffe in Marktmechanismen;Off-Budget
-36;LW;Direkter Geldtransfer ;On-Budget
-37;LW;Externe Kosten;Implizite Subvention
-38;LW;Externe Kosten;Implizite Subvention
-39;LW;Direkter Geldtransfer ;On-Budget
-40;LW;Eingriffe in Marktmechanismen;On-Budget
-41;LW;Externe Kosten;Implizite Subvention
-42;LW;Direkter Geldtransfer ;On-Budget
-43;LW;Direkter Geldtransfer ;On-Budget
-44;LW;Direkter Geldtransfer ;On-Budget
-45;LW;Direkter Geldtransfer ;On-Budget
-46;LW;Direkter Geldtransfer ;On-Budget
-47;LW;Direkter Geldtransfer ;On-Budget
-48;LW;Direkter Geldtransfer ;On-Budget
-49;LW;Direkter Geldtransfer ;On-Budget
-50;LW;Direkter Geldtransfer ;On-Budget
-51;LW;Eingriffe in Marktmechanismen;On-Budget
-52;LW;Steuer-/ Abgabevergünstigung;Off-Budget
-53;LW;Direkter Geldtransfer ;On-Budget
-54;LW;Direkter Geldtransfer ;On-Budget
-55;LW;Externe Kosten;Implizite Subvention
-56;LW;Steuer-/ Abgabevergünstigung;Off-Budget
-57;LW;Direkter Geldtransfer ;On-Budget
-58;LW;Zinsvergünstigungen/-erlasse;Off-Budget
-59;LW;Eingriffe in Marktmechanismen;On-Budget
-60;LW;Steuer-/ Abgabevergünstigung;Off-Budget
-61;LW;Steuer-/ Abgabevergünstigung;Off-Budget
-62;LW;Förderprogramme;On-Budget
-63;LW;Förderprogramme;On-Budget
-64;LW;Direkter Geldtransfer ;On-Budget
-65;LW;Förderprogramme (verschiedene);On-Budget
-66;LW;Direkter Geldtransfer ;On-Budget
-67;LW;Direkter Geldtransfer ;On-Budget
-68;LW;Eingriffe in Marktmechanismen;Off-Budget
-69;LW;Förderprogramme;On-Budget
-70;LW;Direkter Geldtransfer ;On-Budget
-71;LW;Eingriffe in Marktmechanismen;On-Budget
-72;LW;Eingriffe in Marktmechanismen;On-Budget
-73;LW;Direkter Geldtransfer ;On-Budget
-74;LW;Eingriffe in Marktmechanismen;On-Budget
-75;LW-LU;Zinsvergünstigungen/-erlasse;Off-Budget
-76;LW-LU;Direkter Geldtransfer ;On-Budget
-77;LW-LU;Direkter Geldtransfer ;On-Budget
-78;LW-LU;Direkter Geldtransfer ;On-Budget
-79;LW-LU;Direkter Geldtransfer ;On-Budget
-80;LW-LU;Direkter Geldtransfer ;On-Budget
-81;Forstwirtschaft;Direkter Geldtransfer ;On-Budget
-82;Forstwirtschaft;Direkter Geldtransfer ;On-Budget
-83;Forstwirtschaft;Direkter Geldtransfer ;On-Budget
-84;Forstwirtschaft;Direkter Geldtransfer ;On-Budget
-85;Forstwirtschaft;Direkter Geldtransfer ;On-Budget
-86;Forstwirtschaft;Steuer-/ Abgabevergünstigungen;Off-Budget
-87;Forstwirtschaft;Potentieller Geldtransfer (Risikoübernahmen, Defizitgarantien, Kreditbürgschaften etc.);On-Budget
-88;Forstwirtschaft;Direkter Geldtransfer ;On-Budget
-89;Energieproduktion;Eingriffe in Marktmechanismen;Off-Budget
-90;Energieproduktion;Steuer- / Abgabevergünstigung;Off-Budget
-91;Energieproduktion;Steuer- / Abgabevergünstigung;Off-Budget
-92;Energieproduktion;Steuer- / Abgabevergünstigung;Off-Budget
-93;Energieproduktion;Förderprogramme;On-Budget
-94;Energieproduktion;Direkter Geldtransfer ;On-Budget
-95;Energieproduktion;Direkter Geldtransfer ;On-Budget
-96;Energieproduktion;Direkter Geldtransfer ;On-Budget
-97;Energieproduktion;Direkter Geldtransfer ;On-Budget
-98;Energieproduktion;Direkter Geldtransfer ;On-Budget
-99;Energieproduktion;Eingriffe in Marktmechanismen;Off-Budget
-100;Energieproduktion;Direkter Geldtransfer ;On-Budget
-101;Energieproduktion;Direkter Geldtransfer ;On-Budget
-102;Energieproduktion;Fehlanreiz;Fehlanreiz
-103;Energieproduktion;Steuer- / Abgabevergünstigung;Off-Budget
-104;Energieproduktion;Potentieller Geldtransfer ;Off-Budget
-105;Energieproduktion;Externe Kosten;Implizite Subvention
-106;Energieproduktion;Förderprogramme;On-Budget
-107;Energieproduktion;Direkter Geldtransfer ;On-Budget
-108;Energieproduktion;Direkter Geldtransfer ;On-Budget
-109;Energieproduktion;Direkter Geldtransfer;On-Budget
-110;Energieproduktion;Eingriffe in Marktmechanismen;Off-Budget
-111;Energieproduktion;Eingriffe in Marktmechanismen;Off-Budget
-112;Energieproduktion;Direkter Geldtransfer;Off-Budget
-113;Energieproduktion;Potentieller Geldtransfer;Off-Budget
-114;Energieproduktion;Potentieller Geldtransfer;Off-Budget
-115;Energiekonsum;Steuer-/ Steuer-/ Abgabevergünstigung;Off-Budget
-116;Energiekonsum;Eingriffe in Marktmechanismen;Off-Budget
-117;Energiekonsum;Steuer-/ Steuer-/ Abgabevergünstigung;Off-Budget
-118;Energiekonsum;Eingriffe in Marktmechanismen;Off-Budget
-119;Energiekonsum;Steuer-/ Steuer-/ Abgabevergünstigung;Off-Budget
-120;Siedlung;Bereitstellen von Infrastruktur;Off-Budget
-121;Siedlung;Steuer- / Abgabevergünstigung;Off-Budget
-122;Siedlung;Direkter Geldtransfer;On-Budget
-123;Siedlung;Direkter Geldtransfer;On-Budget
-124;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-125;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-126;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-127;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-128;Siedlung;Potentieller Geldtransfer ;Off-Budget
-129;Siedlung;Direkter Geldtransfer;Off-Budget
-130;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-131;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-132;Siedlung;Steuer- / Abgabe-vergünstigung;Off-Budget
-133;Siedlung;Steuer- / Abgabe-vergünstigung;Off-Budget
-134;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-135;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-136;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-137;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-138;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-139;Siedlung;Steuer-/ Abgabevergünstigungen;Fehlanreiz
-140;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-141;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-142;Siedlung;Direkter Geldtransfer;On-Budget
-143;Sieldung;Steuer-/ Abgabevergünstigungen;Off-Budget
-144;Siedlung;Steuer-/ Abgabevergünstigungen;Off-Budget
-145;Siedlung;Förderprogramme;On-Budget
-146;Siedlung;Eingriffe in Marktmechanismen;Off-Budget
-147;Siedlung;Eingriffe in Marktmechanismen;Off-Budget
-148;Tourismus;Direkter Geldtransfer;On-Budget
-149;Tourismus;Direkter Geldtransfer;On-Budget
-150;Tourismus;Direkter Geldtransfer;Off-Budget
-151;Tourismus;Steuer- / Abgabevergünstigung;Off-Budget
-152;Tourismus;Direkter Geldtransfer;On-Budget
-153;Tourismus;Direkter Geldtransfer;On-Budget
-154;Tourismus;Steuer- / Abgabevergünstigung;Off-Budget
-155;Tourismus;Direkter Geldtransfer;On-Budget
-156;Tourismus;Steuer- / Abgabevergünstigung;Off-Budget
-157;Abwasser;Quersubventionierung;Implizite Subvention
-158;Abwasser;Fehlende Umsetzung Verursacherprinzip;Implizite Subvention
-159;Abwasser;Externe Kosten;Implizite Subvention
-160;Abwasser;Externe Kosten;Implizite Subvention
-161;Hochwasserschutz;Direkter Geldtransfer;On-Budget
-162;Hochwasserschutz;Direkter Geldtransfer;On-Budget
-163;Hochwasserschutz;Bereitstellen von Infrastruktur;Implizite Subvention
-;Fehlanreiz auf Gesetzesebene;;Implizite Subvention
-166;Hochwasserschutz;Erhalt eines fixen, engen Gewässerraumes;
-167;Energieproduktion;Fehlanreiz auf Gesetzesebene;
-168;Energieproduktion;Fehlanreiz auf Gesetzesebene;
-169;Energieproduktion;Fehlanreiz auf Gesetzesebene;
-170;Energieproduktion;Fehlanreiz auf Gesetzesebene;
-171;Energieproduktion;Fehlanreiz auf Gesetzesebene;
-172;Verkehr;Fehlanreiz auf Gesetzesebene;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
-;;;
+Nr.;Sektor;Subventionsstatus
+1;Verkehr;Fehlanreiz
+2;Verkehr;Fehlanreiz
+3;Verkehr;Fehlanreiz
+4;Verkehr;Fehlanreiz
+5;Verkehr;Fehlanreiz
+6;Verkehr;Fehlanreiz
+7;Verkehr;On-Budget
+8;Verkehr;Off-Budget
+9;Verkehr;Off-Budget
+10;Verkehr;Off-Budget
+11;Verkehr;Implizite Subvention
+12;Verkehr;Off-Budget
+13;Verkehr;Off-Budget
+14;Verkehr;Off-Budget
+15;Verkehr;Off-Budget
+16;Verkehr;Off-Budget
+17;Verkehr;Off-Budget
+18;Verkehr;On-Budget
+19;Verkehr;Off-Budget
+20;Verkehr;On-Budget
+21;Verkehr;On-Budget
+22;Verkehr;On-Budget
+23;Verkehr;On-Budget
+24;Verkehr;On-Budget
+25;Verkehr;Off-Budget
+26;Verkehr;Off-Budget
+27;Verkehr;Off-Budget
+28;Verkehr;Off-Budget
+29;Verkehr;Off-Budget
+30;Verkehr;On-Budget
+31;Verkehr;On-Budget
+32;Verkehr;Implizite Subvention
+33;Verkehr;Implizite Subvention
+34;Verkehr;Implizite Subvention
+35;LW;Off-Budget
+36;LW;On-Budget
+37;LW;Implizite Subvention
+38;LW;Implizite Subvention
+39;LW;On-Budget
+40;LW;On-Budget
+41;LW;Implizite Subvention
+42;LW;On-Budget
+43;LW;On-Budget
+44;LW;On-Budget
+45;LW;On-Budget
+46;LW;On-Budget
+47;LW;On-Budget
+48;LW;On-Budget
+49;LW;On-Budget
+50;LW;On-Budget
+51;LW;On-Budget
+52;LW;Off-Budget
+53;LW;On-Budget
+54;LW;On-Budget
+55;LW;Implizite Subvention
+56;LW;Off-Budget
+57;LW;On-Budget
+58;LW;Off-Budget
+59;LW;On-Budget
+60;LW;Off-Budget
+61;LW;Off-Budget
+62;LW;On-Budget
+63;LW;On-Budget
+64;LW;On-Budget
+65;LW;On-Budget
+66;LW;On-Budget
+67;LW;On-Budget
+68;LW;Off-Budget
+69;LW;On-Budget
+70;LW;On-Budget
+71;LW;On-Budget
+72;LW;On-Budget
+73;LW;On-Budget
+74;LW;On-Budget
+75;LW-LU;Off-Budget
+76;LW-LU;On-Budget
+77;LW-LU;On-Budget
+78;LW-LU;On-Budget
+79;LW-LU;On-Budget
+80;LW-LU;On-Budget
+81;Forstwirtschaft;On-Budget
+82;Forstwirtschaft;On-Budget
+83;Forstwirtschaft;On-Budget
+84;Forstwirtschaft;On-Budget
+85;Forstwirtschaft;On-Budget
+86;Forstwirtschaft;Off-Budget
+87;Forstwirtschaft;On-Budget
+88;Forstwirtschaft;On-Budget
+89;Energieproduktion;Off-Budget
+90;Energieproduktion;Off-Budget
+91;Energieproduktion;Off-Budget
+92;Energieproduktion;Off-Budget
+93;Energieproduktion;On-Budget
+94;Energieproduktion;On-Budget
+95;Energieproduktion;On-Budget
+96;Energieproduktion;On-Budget
+97;Energieproduktion;On-Budget
+98;Energieproduktion;On-Budget
+99;Energieproduktion;Off-Budget
+100;Energieproduktion;On-Budget
+101;Energieproduktion;On-Budget
+102;Energieproduktion;Fehlanreiz
+103;Energieproduktion;Off-Budget
+104;Energieproduktion;Off-Budget
+105;Energieproduktion;Implizite Subvention
+106;Energieproduktion;On-Budget
+107;Energieproduktion;On-Budget
+108;Energieproduktion;On-Budget
+109;Energieproduktion;On-Budget
+110;Energieproduktion;Off-Budget
+111;Energieproduktion;Off-Budget
+112;Energieproduktion;Off-Budget
+113;Energieproduktion;Off-Budget
+114;Energieproduktion;Off-Budget
+115;Energiekonsum;Off-Budget
+116;Energiekonsum;Off-Budget
+117;Energiekonsum;Off-Budget
+118;Energiekonsum;Off-Budget
+119;Energiekonsum;Off-Budget
+120;Siedlung;Off-Budget
+121;Siedlung;Off-Budget
+122;Siedlung;On-Budget
+123;Siedlung;On-Budget
+124;Siedlung;Off-Budget
+125;Siedlung;Off-Budget
+126;Siedlung;Off-Budget
+127;Siedlung;Off-Budget
+128;Siedlung;Off-Budget
+129;Siedlung;Off-Budget
+130;Siedlung;Off-Budget
+131;Siedlung;Off-Budget
+132;Siedlung;Off-Budget
+133;Siedlung;Off-Budget
+134;Siedlung;Off-Budget
+135;Siedlung;Off-Budget
+136;Siedlung;Off-Budget
+137;Siedlung;Off-Budget
+138;Siedlung;Off-Budget
+139;Siedlung;Fehlanreiz
+140;Siedlung;Off-Budget
+141;Siedlung;Off-Budget
+142;Siedlung;On-Budget
+143;Sieldung;Off-Budget
+144;Siedlung;Off-Budget
+145;Siedlung;On-Budget
+146;Siedlung;Off-Budget
+147;Siedlung;Off-Budget
+148;Tourismus;On-Budget
+149;Tourismus;On-Budget
+150;Tourismus;Off-Budget
+151;Tourismus;Off-Budget
+152;Tourismus;On-Budget
+153;Tourismus;On-Budget
+154;Tourismus;Off-Budget
+155;Tourismus;On-Budget
+156;Tourismus;Off-Budget
+157;Abwasser;Implizite Subvention
+158;Abwasser;Implizite Subvention
+159;Abwasser;Implizite Subvention
+160;Abwasser;Implizite Subvention
+161;Hochwasserschutz;On-Budget
+162;Hochwasserschutz;On-Budget
+163;Hochwasserschutz;Implizite Subvention
+;Fehlanreiz auf Gesetzesebene;Implizite Subvention
+166;Hochwasserschutz;
+167;Energieproduktion;
+168;Energieproduktion;
+169;Energieproduktion;
+170;Energieproduktion;
+171;Energieproduktion;
+172;Verkehr;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
