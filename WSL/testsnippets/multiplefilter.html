@@ -9,7 +9,7 @@
 
     <div id="content"></div>
     <script>
-      data = ["Verkehr","Tourismus","Landwirtschaft","spiderman","ironman"];
+      data = [["Verkehr","1000"],["Tourismus","5000"],["Landwirtschaft","1000"]];
       table = d3.select("#content")
           .append("table")
           .property("border","1px");
@@ -24,6 +24,7 @@
           if(cb.property("checked")){
             choices.push(cb.property("value"));
           }
+          console.log(choices);
         });
 
         if(choices.length > 0){
