@@ -102,7 +102,10 @@ color: white;
         var subset = data;
         if (tagA != "*") {
           subset = subset.filter(function(d) {
-            return d["Sektor"] == tagA
+            d["Sektor"] == tagAvalues.forEach((item, i) => {
+
+            });
+            return
           });
         }
         if (tagB != "*") {

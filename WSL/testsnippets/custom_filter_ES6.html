@@ -176,7 +176,7 @@
       console.log(JSON.stringify(result, null, 4));
       console.log(result.length + ' results ------------------'); // For easier reading in the console
       console.log(JSON.stringify(filter, null, 4));
-      let columns = ['Nr', 'Sektor', 'Subventionsbezeichnung', 'Subventionsart', 'Subventionstatus', 'Negative Wirkung', 'Schwierigkeit', 'Biodiversitätsschädigender', 'Budget', 'Budget Quelle', 'Rechtsgrundlage', 'Anpassung', 'Quelle'];
+      let columns = ['Nr', 'Sektor', 'Subventionsbezeichnung', 'Subventionsart', 'Subventionstatus', 'NegativeWirkung', 'Schwierigkeit', 'Biodiversitätsschädigender', 'Budget', 'Budget Quelle', 'Rechtsgrundlage', 'Anpassung', 'Quelle'];
       clearTable();
       updateTable(result, columns);
       d3.select("#NrOfResults").text(result.length + " Result(s)")
