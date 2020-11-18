@@ -3,12 +3,65 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document sans nom</title>
+  <title>Data Filtering Test - WSL</title>
   <script src="https://d3js.org/d3.v4.0.0-alpha.40.min.js"></script>
 </head>
 
 <body>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
 
+    }
+
+    table {
+      width: 100%;
+
+    }
+
+    table tr:hover {
+      background-color: grey;
+      color: white;
+    }
+  </style>
+  <div id="filters">
+    <select id="Sektor" name="Sektor" class="mydataselector" multiple size="10">
+      <option value="*">All</option>
+      <option value="Verkehr">Verkehr</option>
+      <option value="Tourismus">Tourismus</option>
+      <option value="LW">LW</option>
+      <option value="Forstwirtschaft">Forstwirtschaft</option>
+      <option value="Energieproduktion">Energieproduktion</option>
+      <option value="Energiekonsum">Energiekonsum</option>
+      <option value="Siedlung">Siedlung</option>
+      <option value="Abwasser">Abwasser</option>
+      <option value="Hochwasserschutz">Hochwasserschutz</option>
+
+    </select>
+    <select id="Subventionstatus" name="Subventionstatus" class="mydataselector" multiple size="10">
+      <option value="*">All</option>
+      <option value="Off-Budget">Off-Budget</option>
+      <option value="On-Budget">On-Budget</option>
+      <option value="Fehlanreiz">Fehlanreiz</option>
+      <option value="Implizite Subvention">Implizite Subvention</option>
+    </select>
+
+    <select id="NegativeWirkung" name="NegativeWirkung" class="mydataselector" multiple size="10">
+      <option value="*">All</option>
+      <option value="+">+</option>
+      <option value="++">++</option>
+      <option value="+++">+++</option>
+      <option value="o">o</option>
+    </select>
+
+    <input type="reset" value="Clear" onclick="clearTable()">
+
+    <div id="NrOfResults">Results</div>
+    </form>
+  </div>
+  <div id="tabledisplay"></div>
   <script type="text/javascript">
     // Our new builder function
     buildFilter = (filter) => {
@@ -27,8 +80,7 @@
       //   'listPrice',
       //   'bedrooms'
       // ];
-      const keysWithMinMax = [
-      ];
+      const keysWithMinMax = [];
 
       const filteredData = data.filter((item) => {
         for (let key in query) {
@@ -84,30 +136,80 @@
 
     // Updated filter
     let filter = {
-      Sektor: [
-        'Verkehr',
-        'Tourismus',
-      ],
-      Subventionstatus: [
-        'On-Budget',
-      ],
-      Negative_Wirkung: [
-        'x',
-      ],
+      Sektor: [],
+      Subventionstatus: [],
+      NegativeWirkung: [],
     };
 
     // Updated query
+    d3.selectAll(".mydataselector")
+      .on("change", function(d) {
+        let values = []
+        selected = d3.select(this) // select the select
+          .selectAll("option:checked") // select the selected values
+          .each(function() {
+            values.push(this.value)
+          }); // for each of those, get its value
 
+        if (values[0] == '*') { // widcard for all (workaround)
+          values = []; // empty the Array
+        }
+        console.log(values)
+        filter[this.name] = values;
+        console.log(filter);
+        outputFilterResults();
+      })
 
     let datasource = 'https://alainbellet.github.io/WIP/WSL/data/subventionen_large.csv'
+    let dataset = [];
+    let nrOfResults = 0;
 
     const t = d3.csv(datasource, function(data) {
-      console.log(data);
+      dataset = data;
+      console.log(dataset);
+      outputFilterResults();
+    });
+
+    outputFilterResults = () => {
       query = buildFilter(filter);
-      result = filterData(data, query);
+      result = filterData(dataset, query);
       console.log(JSON.stringify(result, null, 4));
       console.log(result.length + ' results ------------------'); // For easier reading in the console
-    });
+      console.log(JSON.stringify(filter, null, 4));
+      let columns = ['Nr', 'Sektor', 'Subventionsbezeichnung', 'Subventionsart', 'Subventionstatus', 'Negative Wirkung', 'Schwierigkeit', 'Biodiversitätsschädigender', 'Budget', 'Budget Quelle', 'Rechtsgrundlage', 'Anpassung', 'Quelle'];
+      clearTable();
+      updateTable(result, columns);
+      d3.select("#NrOfResults").text(result.length + " Result(s)")
+    }
+
+    updateTable = (data, columns) => {
+      let table = d3.select('#tabledisplay').append('table')
+      let thead = table.append('thead')
+      let tbody = table.append('tbody')
+      thead.append('tr').selectAll('th').data(columns).enter().append('th').text(function(d) {
+        return d
+      })
+      let rows = tbody.selectAll('tr').data(data).enter().append('tr')
+      let cells = rows.selectAll('td').data(function(row) {
+        return columns.map(function(column) {
+          return {
+            column: column,
+            value: row[column]
+          }
+        })
+      }).enter().append('td').text(function(d) {
+        return d.value
+      })
+      return table;
+    }
+
+    clearTable = () => {
+      let table = d3.select('#tabledisplay').selectAll("table").remove();
+    }
+
+
+
+
 
   </script>
 </body>
