@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document sans nom</title>
+  <script src="https://d3js.org/d3.v4.0.0-alpha.40.min.js"></script>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    // Our new builder function
+    buildFilter = (filter) => {
+      let query = {};
+      for (let keys in filter) {
+        if ((filter[keys].constructor === Object) || (filter[keys].constructor === Array && filter[keys].length > 0)) {
+          query[keys] = filter[keys];
+        }
+      }
+      return query;
+    }
+
+    // Our new filter function
+    filterData = (data, query) => {
+      // const keysWithMinMax = [
+      //   'listPrice',
+      //   'bedrooms'
+      // ];
+      const keysWithMinMax = [
+      ];
+
+      const filteredData = data.filter((item) => {
+        for (let key in query) {
+          /* Note: this initial check can be modified in case
+           *       you still want to include results that may
+           *       not have that specific key.
+           *
+           *       If that is the case, you can just change these
+           *       checks to:
+           *
+           *       if (item[key] !=== undefined) {
+           *           if (keysWithMinMax.includes(key)) {
+           *              ...
+           *           }
+           *           else if (!query[key].includes(item[key])) {
+           *              ...
+           *           }
+           *       }
+           *
+           *       This way your program won't crash when the key doesn't
+           *       exist.
+           */
+          if (item[key] === undefined) {
+            return false;
+          } else if (keysWithMinMax.includes(key)) {
+            if (query[key]['min'] !== null && item[key] < query[key]['min']) {
+              return false;
+            }
+            if (query[key]['max'] !== null && item[key] > query[key]['max']) {
+              return false;
+            }
+          } else if (!query[key].includes(item[key])) {
+            return false;
+          }
+        }
+        return true;
+      });
+      return filteredData;
+    };
+
+
+
+    // Initial query
+    // const fs = require('fs');
+    // const file = fs.readFileSync('housing_data.json');
+    // const data = JSON.parse(file);
+    // let query = buildFilter(filter); // <-- Now this has been initialized with 'let'
+    //
+    // let result = filterData(data, query); // <-- Now this has been initialized with 'let'
+    // console.log(JSON.stringify(result, null, 4));
+    //
+    // console.log('----------------------'); // For easier reading in the console
+
+    // Updated filter
+    let filter = {
+      Sektor: [
+        'Verkehr',
+        'Tourismus',
+      ],
+      Subventionstatus: [
+        'On-Budget',
+      ],
+      Negative_Wirkung: [
+        'x',
+      ],
+    };
+
+    // Updated query
+
+
+    let datasource = 'https://alainbellet.github.io/WIP/WSL/data/subventionen_large.csv'
+
+    const t = d3.csv(datasource, function(data) {
+      console.log(data);
+      query = buildFilter(filter);
+      result = filterData(data, query);
+      console.log(JSON.stringify(result, null, 4));
+      console.log(result.length + ' results ------------------'); // For easier reading in the console
+    });
+
+  </script>
+</body>
+
+</html>
