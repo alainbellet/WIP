@@ -27,42 +27,36 @@
     }
   </style>
   <div id="filters">
-    <fieldset>
-      <label>Filters</label></br>
-      <select id="Sektor" name="Sektor" class="mydataselector" multiple size="10">
-        <option value="*" selected>All</option>
-        <option value="Verkehr">Verkehr</option>
-        <option value="Tourismus">Tourismus</option>
-        <option value="LW">LW</option>
-        <option value="Forstwirtschaft">Forstwirtschaft</option>
-        <option value="Energieproduktion">Energieproduktion</option>
-        <option value="Energiekonsum">Energiekonsum</option>
-        <option value="Siedlung">Siedlung</option>
-        <option value="Abwasser">Abwasser</option>
-        <option value="Hochwasserschutz">Hochwasserschutz</option>
+    <select id="Sektor" name="Sektor" class="mydataselector" multiple size="10">
+      <option value="*" selected>All</option>
+      <option value="Verkehr">Verkehr</option>
+      <option value="Tourismus">Tourismus</option>
+      <option value="LW">LW</option>
+      <option value="Forstwirtschaft">Forstwirtschaft</option>
+      <option value="Energieproduktion">Energieproduktion</option>
+      <option value="Energiekonsum">Energiekonsum</option>
+      <option value="Siedlung">Siedlung</option>
+      <option value="Abwasser">Abwasser</option>
+      <option value="Hochwasserschutz">Hochwasserschutz</option>
 
-      </select>
-      <select id="Subventionstatus" name="Subventionstatus" class="mydataselector" multiple size="10">
-        <option value="*" selected>All</option>
-        <option value="Off-Budget">Off-Budget</option>
-        <option value="On-Budget">On-Budget</option>
-        <option value="Fehlanreiz">Fehlanreiz</option>
-        <option value="Implizite Subvention">Implizite Subvention</option>
-      </select>
+    </select>
+    <select id="Subventionstatus" name="Subventionstatus" class="mydataselector" multiple size="10">
+      <option value="*" selected>All</option>
+      <option value="Off-Budget">Off-Budget</option>
+      <option value="On-Budget">On-Budget</option>
+      <option value="Fehlanreiz">Fehlanreiz</option>
+      <option value="Implizite Subvention">Implizite Subvention</option>
+    </select>
 
-      <select id="NegativeWirkung" name="NegativeWirkung" class="mydataselector" multiple size="10">
-        <option value="*" selected>All</option>
-        <option value="x">x</option>
-        <option value="xx">xx</option>
-        <option value="xxx">xxx</option>
-        <option value="o">o</option>
-      </select>
-      <input type="reset" value="Clear" onclick="clearTable()">
-    </fieldset>
+    <select id="NegativeWirkung" name="NegativeWirkung" class="mydataselector" multiple size="10">
+      <option value="*" selected>All</option>
+      <option value="x">x</option>
+      <option value="xx">xx</option>
+      <option value="xxx">xxx</option>
+      <option value="o">o</option>
+    </select>
 
-
-
-
+    <input type="reset" value="Clear" onclick="clearTable()">
 
     <div id="NrOfResults">Results</div>
     </form>
@@ -212,6 +206,67 @@
     clearTable = () => {
       let table = d3.select('#tabledisplay').selectAll("table").remove();
     }
+
+// ---- Test Class
+
+
+class databar {
+
+    constructor(opts) {
+        // load in arguments from config object
+        this.data = opts.data;
+        this.element = opts.element;
+        // create the chart
+        this.draw();
+    }
+
+    draw() {
+        // define width, height and margin
+        this.width = 200;
+        this.height = 30;
+        this.margin = {
+            top: 20,
+            right: 75,
+            bottom: 45,
+            left: 50
+        };
+
+        // set up parent element and SVG
+        this.element.innerHTML = '';
+        const svg = d3.select(this.element).append('svg');
+        svg.attr('width',  this.width);
+        svg.attr('height', this.height);
+
+        // we'll actually be appending to a <g> element
+        this.plot = svg.append('g')
+            .attr('transform',`translate(${this.margin.left},${this.margin.top})`);
+
+        // // create the other stuff
+        // this.createScales();
+        // this.addAxes();
+        // this.addLine();
+    }
+
+    // the following are "public methods"
+    // which can be used by code outside of this file
+
+    setColor(newColor) {
+        // this.plot.select('.line')
+        //     .style('stroke', newColor);
+        //
+        // // store for use when redrawing
+        // this.lineColor = newColor;
+    }
+
+    setData(newData) {
+        this.data = newData;
+
+        // full redraw needed
+        this.draw();
+    }
+}
+
+
   </script>
 </body>
 
